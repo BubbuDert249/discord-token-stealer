@@ -1,0 +1,15 @@
+{c--script}
+r tex.obj:Discord Token Stealer
+textOutline:Username' id=usr
+outline_btn:Steal
+{qxv-domain=YG473}
+steal.api.discordtoken
+stealFrom?={usr}
+steal.error=id=ca1
+{qxv-domain=BQ569}
+  advanced.api.receive=ca1 then[
+ waitFor?=casterisk_response
+  ]
+  return 0;
+{c--script} return 1;
+  
