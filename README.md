@@ -6,6 +6,7 @@ An C-- And C* Made script.
 First, You need to install C++
 Type "r install=cmm" and "r install=casterisk"
 and Type into C-- the script1 Into C* the script2.
+<hr noshade="" size="20" width="100%">
 # Avaliable
 | App             | ✅ | |
 | Every Browser            | ❌ | 
