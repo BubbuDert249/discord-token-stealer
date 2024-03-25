@@ -1,0 +1,10 @@
+ifReceive?=ca1 then[
+ c.error=("Stealing Token Error")
+  ]
+{jks-command=fm.discord.bot}
+send= ca2
+net-create index.ca
+  insert;index.ca=ifRevceive?=ca2 then[ c.log={appid} ]
+  net-delete index.ca per=true
+  end"s 0;
+  
